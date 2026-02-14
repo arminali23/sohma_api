@@ -1,0 +1,20 @@
+{
+    "session_id": "HARD_001",
+    "vad": { "valence": 0.3, "arousal": 0.8, "dominance": 0.5 },
+    "game_context": { "difficulty": "Hard", "timer_remaining_s": 15 },
+    "raw_signals": {
+      "window_ms": 5000,
+      "move_count": 25,
+      "push_with_box_count": 12,
+      "moves_without_box_count": 13,
+      "wrong_direction_count": 4,
+      "repeated_move_count": 2,
+      "boxes_stuck_in_window": 3,
+      "undos_in_window": 2,
+      "idle_time_ms": 1500,
+      "idle_count": 3,
+      "avg_time_between_moves_ms": 200,
+      "timing_std_ms": 100,
+      "boxes_on_target_delta": -2
+    }
+  }
