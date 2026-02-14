@@ -77,16 +77,16 @@ curl -X POST http://localhost:8000/predict \
 # What the Model Does
 
 From Sokoban raw signals, it calculates:
-	•	Interaction intensity
-	•	Error rate
-	•	Pause frequency
-	•	Temporal instability
-	•	Stress score (derived from intensity + error rate)
+	- Interaction intensity
+	- Error rate
+	- Pause frequency
+	- Temporal instability
+	- Stress score (derived from intensity + error rate)
 
 This allows us to test:
-	•	SDK → API connection
-	•	JSON schema compatibility
-	•	Derived metric logic
-	•	End-to-end data validation
+	- SDK → API connection
+	- JSON schema compatibility
+	- Derived metric logic
+	- End-to-end data validation
 
   
