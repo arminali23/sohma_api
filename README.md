@@ -32,8 +32,6 @@ This version is **internal only** and intended for rapid integration testing.
 git clone git clone https://github.com/arminali23/sohma_api.git
 cd sohma_api
 pip install -r requirements.txt
-cd sohma_api
-pip install -r requirements.txt
 ```
 
 Run the API 
