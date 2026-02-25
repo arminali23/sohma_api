@@ -29,7 +29,9 @@ This version is **internal only** and intended for rapid integration testing.
 ## Installation
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/sohma-placeholder-api.git](https://github.com/arminali23/sohma_api.git)
+git clone git clone https://github.com/arminali23/sohma_api.git
+cd sohma_api
+pip install -r requirements.txt
 cd sohma_api
 pip install -r requirements.txt
 ```
