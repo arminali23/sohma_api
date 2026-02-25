@@ -3,6 +3,10 @@ from inference_core import predict
 
 app = FastAPI(title="SOHMA Placeholder Model API", version="0.1")
 
+@app.get("/")
+def root():
+    return {"ok": True, "service": "sohma_api"}
+
 # Minimal smoke test
 @app.get("/healthz")
 def healthz():
